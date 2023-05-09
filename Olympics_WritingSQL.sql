@@ -31,7 +31,7 @@ SELECT * FROM OLYMPICS_HISTORY_NOC_REGIONS;
 -- Question 1: How many olympics games have been held?
 SELECT COUNT(DISTINCT games) AS total_olympic_games FROM OLYMPICS_HISTORY
 
--- Question: List down all Olympics games held so far.
+-- Question 2: List down all Olympics games held so far.
 SELECT distinct year, season, city
 FROM OLYMPICS_HISTORY
 ORDER BY year asc, season asc;
