@@ -44,7 +44,7 @@ When importing athlete_events.csv files into PostgreSQL, you may get an error li
 
 ![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
 
-ERROR: unterminated CSV quoted field. So you should revise this record by deleting the quoted field in "Besik'"
+ERROR: unterminated CSV quoted field. So you should revise this record by deleting the quoted field in "Besik'".
 
 
 
