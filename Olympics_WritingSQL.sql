@@ -316,3 +316,58 @@ CREATE EXTENSION TABLEFUNC
     from temp t
     join tot_medals tm on tm.games = t.games and tm.country = t.country
     order by games;
+    
+ -- Question 18: Which countries have never won gold medal but have won silver/bronze medals?
+SELECT nr.region AS country ,
+       medal,
+       count(1) AS total_medals
+FROM OLYMPICS_HISTORY oh
+JOIN OLYMPICS_HISTORY_NOC_REGIONS nr ON nr.noc=oh.noc
+WHERE medal <> 'NA'
+GROUP BY nr.region,
+         medal
+ORDER BY nr.region,
+         medal
+SELECT *
+FROM
+  (SELECT country,
+          coalesce(gold, 0) AS gold,
+          coalesce(silver, 0) AS silver,
+          coalesce(bronze, 0) AS bronze
+   FROM CROSSTAB('SELECT nr.region as country
+    					, medal, count(1) as total_medals
+    					FROM OLYMPICS_HISTORY oh
+    					JOIN OLYMPICS_HISTORY_NOC_REGIONS nr ON nr.noc=oh.noc
+    					where medal <> ''NA''
+    					GROUP BY nr.region,medal order BY nr.region,medal', 'values (''Bronze''), (''Gold''), (''Silver'')') AS FINAL_RESULT(country varchar, bronze bigint, gold bigint, silver bigint)) x
+WHERE gold = 0
+  AND (silver > 0
+       OR bronze > 0)
+ORDER BY gold DESC NULLS LAST,
+                   silver DESC NULLS LAST,
+                               bronze DESC NULLS LAST;
+	
+-- Question 19: In which Sport/event, China has won highest medals.
+	with t1 as(
+		select sport, count(medal) as count_of_medals
+		from olympics_history oh 
+		join olympics_history_noc_regions nr
+		on oh.noc = nr.noc
+		where region = 'China' and medal <> 'NA'
+		group by sport)
+	select * from t1 where count_of_medals = (select max(count_of_medals) from t1)
+
+-- Question 20: Break down all olympic games where China won medal for Badminton and how many medals in each olympic games
+SELECT region,
+       sport,
+       games,
+       count(medal) AS total_medals
+FROM olympics_history oh
+JOIN olympics_history_noc_regions nr ON oh.noc = nr.noc
+WHERE medal <> 'NA'
+  AND sport = 'Badminton'
+  AND region = 'China'
+GROUP BY region,
+         sport,
+         games
+ORDER BY total_medals DESC
