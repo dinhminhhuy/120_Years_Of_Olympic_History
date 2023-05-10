@@ -54,61 +54,61 @@ I wrote 20 SQL Queries using this data. For each of these queries, you would fin
 List of all these 20 queries mentioned below:
 #### 1. How many olympics games have been held?
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_1.png)
 #### 2. List down all Olympics games held so far.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_2.png)
 #### 3. Mention the total no of nations who participated in each olympics game?
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_3.png)
 #### 4. Which year saw the highest and lowest no of countries participating in olympics?
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_4.png)
 #### 5. Which nation has participated in all of the olympic games?
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_5.png)
 #### 6. Identify the sport which was played in all summer olympics.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_6.png)
 #### 7. Which Sports were just played only once in the olympics?
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_7.png)
 #### 8. Fetch the total no of sports played in each olympic games.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_8.png)
 #### 9. Fetch details of the oldest athletes to win a gold medal.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_9.png)
 #### 10 .Find the Ratio of male and female athletes participated in all olympic games.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_10.png)
 #### 11. Fetch the top 5 athletes who have won the most gold medals.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_11.png)
 #### 12. Fetch the top 5 athletes who have won the most medals (gold/silver/bronze).
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_12.png)
 #### 13. Fetch the top 5 most successful countries in olympics. Success is defined by no of medals won.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_13.png)
 #### 14. List down total gold, silver and broze medals won by each country.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_14.png)
 #### 15. List down total gold, silver and broze medals won by each country corresponding to each olympic games.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_15.png)
 #### 16. Identify which country won the most gold, most silver and most bronze medals in each olympic games.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_16.png)
 #### 17. Identify which country won the most gold, most silver, most bronze medals and the most medals in each olympic games.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_17.png)
 #### 18. Which countries have never won gold medal but have won silver/bronze medals?
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_18.png)
 #### 19. In which Sport/event, China has won highest medals?
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_19.png)
 #### 20. Break down all olympic games where China won medal for Badminton and how many medals in each olympic games.
 #### Expect output: 
-![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Importing_Error.png?raw=true)
+![alt text](https://github.com/dinhminhhuy/120_Years_Of_Olympic_History/blob/main/Question_20.png)
